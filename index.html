@@ -1,27 +1,55 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Git Demo</title>
+    <title>Haile's Guessing Game</title>
   </head>
   <body>
-    <h1>Hello World</h1>
-<script type="text/javascript">
- var userName= prompt('what\'s your name?');
- alert('welcome to my site' + userName);
- var questionOne=prompt('where was I born in washington?');
- questionOne=questionOne.toLowercase();
- if (questionOne==='yes' || questionOne==='Y') {
-   //do some stuff
- }
- else if (questionOne==='No') || questionOne=== 'n'{
-   //
- }
- else {
+    <img src ="https://lh3.googleusercontent.com/_at98_8yyeDlGhDluoI1Dc1x662HGjV3DZINp2Ha6B-AKAUQQHYEDmpkI8zbRGm5jgPRcS4fCfpag2gqgS7gITmmjWPkSsXoNpqBslyZqkEZZtTyRohu3KzlHhGf7PFsHPXQ3fvjNVafC9N8KBCCJ-aA1GUUdRs8JOKcjY72VoJLwIV5WIElEskkRvfLNhCg1B6nSKGikwQzzqBJvonE9L_T08iL9D7Hv9iu-f4vGtVbQfPvENx45kzqzVtiz4Y1swhEZ1VvfwH0IPFJaM5K_W0X3LviJkkCWHTUANJN7ZgsSQjmtRnKWvz-xd9yHf4NR1bqcFxBFqN1--22I_fZwtzWoJaf4YuimyjBuVTwTmO4m6zBN3l24-9G5_GNSDM0h3Ba8EGh0PaUf3KF7P3GjPgpR_B__U4CMF2C-vO6CD7LzZrvpsYikY9XUVYzoWAnZbGmFKflZGPFBQdRWCAlKST0x4PopsoLbQ_GpUIdvKDPevdIFv1if4Cprbt1jj1IkUgmB2V0fiN3BbPdOkfwW1fgb7ACAAKuYc0zpCROC4eG2qLoF8_jObzJ6VpZhhjpNW1xFdwTNoNuvpppE1-uZy9uwlGzxiYJzZoOPfcbqrmhVVZY=w479-h638-no" stlye "width:200px;height:200px;"><h1>David Porter</h1>
+      <h1>Assingment 1, Guessing Game</h1>
+      <p>Was I born in Washington?</p>
+      <p>Would you like to learn more about me?</p>
+      <p>Do you like my overused photo?</p>
+      <p>Do you want to play some ping pong?</p>
 
-   //do some stuff
- }
-</script>
-    <h2></h2>
+    <script>
+    var userName = prompt('What\'s your name?');
+    alert('Welcome to my site ' + userName);
+
+    var questionOne = prompt('Was I born in Washington?');
+    questionOne = questionOne.toLowerCase();
+
+    if (questionOne === 'no'  || questionOne === 'n') {
+      alert('Correct, I was born in Ethiopia!')
+    } else if (questionOne === 'yes'  || questionOne === 'y') {
+      alert('Not true, I was born in Ethiopia!')
+    } else {
+
+    } var questionTwo = prompt('Would you like to learn more about me?');
+    questionTwo = questionTwo.toLowerCase();
+
+      if (questionTwo === 'yes'  || questionTwo === 'y') {
+        alert('Great, please read on ' + userName);
+      } else if (questionTwo === 'no'  || questionTwo === 'n'){
+        alert('Sucks for you, I typed it all so you better read on.')
+      }
+      var questionThree = prompt('Do you like my overused photo?');
+      questionThree = questionThree.toLowerCase();
+
+        if (questionThree === 'yes'  || questionThree === 'y'){
+        alert('Thank you very much.  How you doing??!!');
+      } else if (questionThree === 'no'  || questionThree === 'n'){
+        alert('That\'s cool, I don\'t really like it either.')
+      }
+      var questionFour = prompt('Do you want to play some ping pong?');
+      questionFour = questionFour.toLowerCase();
+
+      if (questionFour === 'yes'  || questionFour === 'y') {
+        alert('Meet me in 15 minutes near the kitchen.');
+
+      } else if (questionFour === 'no'  || questionFour === 'n'){
+        alert('Whatever, you would have won, I suck!')
+      }
+
+    </script>
   </body>
-</html>
+  </html>
